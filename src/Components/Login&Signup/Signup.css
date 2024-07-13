@@ -1,0 +1,36 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(214, 220, 255);
+}
+.Signup-card{
+    width:400px;
+}
+.Signup-heading h1 {
+    margin-bottom: 0px; /* Adjust the value as needed */
+}
+
+.Signup-heading p {
+    margin-top: 0px; /* Adjust the value as needed */
+    margin-bottom: 15px;
+    font-weight:600;
+    font-size:16px;
+}
+.Signup-btn-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Signup-button{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(23, 9, 228);
+    font-weight: bold;
+}
+.Login-container,.Business-signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

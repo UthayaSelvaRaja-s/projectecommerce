@@ -1,0 +1,82 @@
+/* Login.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(214, 220, 255);
+}
+  
+.Form-container {
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login-form-container{
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    
+}
+.Login-heading h1 {
+    margin-bottom: 0px; /* Adjust the value as needed */
+}
+
+.Login-heading p {
+    margin-top: 0px; /* Adjust the value as needed */
+    margin-bottom: 15px;
+    font-weight:600;
+    font-size:16px;
+}
+.Login-card-1 {
+    width:400px;
+    padding: 30px;
+    border-radius: 8px 0px 0px 8px;
+}
+.Forget-container{
+margin-left: 30%;
+}
+.Login-btn-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Login-button{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(23, 9, 228);
+    font-weight: bold;
+}
+.Signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Carousel-Container{
+    width: 350px;
+}
+.Carousel-Card{
+    width: auto;
+    /* background-color:rgb(243, 243, 243); */
+    background-color: rgb(255, 255, 255);
+    height: 473px;
+    border-radius: 0px 8px 8px 0px;
+}
+.Carousel-Container-1,.Carousel-Container-2,.Carousel-Container-3{
+    width: 200px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.ant-carousel .slick-dots li button {
+    background-color:blue !important;  /* this is used to oerwrite the antd design Change this to the desired background color */
+  }
+img{
+    width: 200px;
+    height: 200px;
+    margin:auto;
+}
