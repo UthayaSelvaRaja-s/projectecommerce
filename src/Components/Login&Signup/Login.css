@@ -20,11 +20,11 @@
     
 }
 .Login-heading h1 {
-    margin-bottom: 0px; /* Adjust the value as needed */
+    margin-bottom: 0px;
 }
 
 .Login-heading p {
-    margin-top: 0px; /* Adjust the value as needed */
+    margin-top: 0px;
     margin-bottom: 15px;
     font-weight:600;
     font-size:16px;
@@ -73,7 +73,7 @@ margin-left: 30%;
     margin-top: 30px;
 }
 .ant-carousel .slick-dots li button {
-    background-color:blue !important;  /* this is used to oerwrite the antd design Change this to the desired background color */
+    background-color:blue !important; 
   }
 img{
     width: 200px;
